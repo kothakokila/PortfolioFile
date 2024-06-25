@@ -428,13 +428,12 @@
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
     (function() {
-        emailjs.init('IUI7V6ZKIjk3Dx0Wj'); // Replace with your EmailJS user ID
+        emailjs.init('IUI7V6ZKIjk3Dx0Wj'); 
     })();
 
     document.getElementById('contactForm').addEventListener('submit', function(event) {
         event.preventDefault();
 	
-			// These IDs from the previous steps
 			const serviceID = 'service_awopb4k';
 			const templateID = 'template_qzeb58e';
 
@@ -453,7 +452,6 @@
             });
     });
 	function downloadResume() {
-	// Create an invisible link element
 	const link = document.createElement('a');
 	link.href = 'Kokila_Kotha.docx';  
 	link.download = 'KokilaKotha_Resume.docx';  
