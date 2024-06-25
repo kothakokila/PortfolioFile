@@ -100,7 +100,7 @@
 
 
 </head>
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background: url('dark.jpeg') no-repeat center center;
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background: url('/Users/kokilakotha/Desktop/dark.jpeg') no-repeat center center;
   background-size: cover; background-attachment: fixed;">
 	  
 	  
@@ -146,7 +146,7 @@
 
 	
 	<section id="about-section">
-		<h2 class="big-4" style="text-decoration: underline;text-decoration-color: #0ef;
+		<h2 class="mb-4" style="text-decoration: underline;text-decoration-color: #0ef;
 		font-family: 'Times New Roman', Times, serif;text-align: center;margin-top: 1rem;">About Me</h2>
 		<div style="text-align: center;margin-left: 10rem;margin-right: 10rem;">
 			<p>I am a Full Stack Developer with around 8 years of experience in building robust and scalable web applications. My journey in the tech world has been driven by a passion for crafting efficient and user-friendly solutions.</p>
@@ -276,7 +276,7 @@
 			<div class="row">
 				<div class="resume-wrap ftco-animate">
 					<span class="date">Software Developer</span>
-					<h4>Sentara Health <span style="font-size: 20px; font-style: italic;">(DEC 2018- DEC 2020)</span></h4>
+					<h4>Sentara Health <span style="font-size: 20px; font-style: italic;">(DEC 2021- DEC 2020)</span></h4>
 					<p style="color:white"><span style="font-weight: bold;text-decoration: underline;">Project Description: </span>My project at Sentara Health involves developing a platform to schedule appointments with Sentara Medical Group. Developed a user-friendly interface that streamlines the appointment booking process, enhancing patient convenience and healthcare efficiency. I used Angular for frontend and Java Springboot for backend microservices.</p>
 						<ul style="text-align: justify; color: #ccc;">
 							<li>Worked with Angular 6 for creating engaging user interface by integrating features like forms, modules, DOM manipulation, and HTTP requests, efficient routing for SPA development, and Angular CLI.</li>
@@ -317,6 +317,7 @@
 						</ul>
 				</div>
 			</div>
+			<p><button class="btn btn-primary py-3 px-3" onclick="downloadResume()">Download Resume</button></p>
 		</div>
 	</section>
 	
@@ -397,7 +398,20 @@
 		<p style="text-align: center;">Thank you for visiting my portfolio!</p>
 	</section>
 
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <footer style="background-color: #fff; color: #000; text-align: center;height: 100px;">
+	<div style="position: relative;
+    height: 100%;">
+	<div style="position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;">
+	<p>Copyright &copy;2024 Kokila Kotha All rights reserved</p>
+	</div>
+	</div>
+  </footer>
 
 
   <script src="js/jquery.min.js"></script>
@@ -438,6 +452,15 @@
                 alert('Failed to send email. Please try again later.', error);
             });
     });
+	function downloadResume() {
+	// Create an invisible link element
+	const link = document.createElement('a');
+	link.href = 'Kokila_Kotha.docx';  
+	link.download = 'KokilaKotha_Resume.docx';  
+	document.body.appendChild(link); 
+	link.click();
+	document.body.removeChild(link); 
+}
 </script>
 
     
