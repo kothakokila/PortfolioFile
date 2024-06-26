@@ -100,7 +100,7 @@
 
 
 </head>
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background: url('dark.jpeg') no-repeat center center;
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background: url('/Users/kokilakotha/Desktop/dark.jpeg') no-repeat center center;
   background-size: cover; background-attachment: fixed;">
 	  
 	  
@@ -148,18 +148,18 @@
 	<section id="about-section">
 		<h2 class="mb-4" style="text-decoration: underline;text-decoration-color: #0ef;
 		font-family: 'Times New Roman', Times, serif;text-align: center;margin-top: 1rem;">About Me</h2>
-		<div style="text-align: center;margin-left: 5rem;margin-right: 5rem;
+		<div style="text-align: center;margin-left: 4rem;margin-right: 4rem;
 		@media (max-width: 300px) {
         div {
-            margin-left: 1rem;
-            margin-right: 1rem;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
         }
     }">
-			<p>I am a Full Stack Developer with around 8 years of experience in building robust and scalable web applications. My journey in the tech world has been driven by a passion for crafting efficient and user-friendly solutions.</p>
-			<p>I specialize in front-end development using React.js and back-end services with Java and Spring Boot. My proficiency extends to creating responsive applications, managing state with Redux, and implementing Microservices Architecture. I have a strong foundation in various relational databases like MySQL, SQL Server, and NoSQL databases like MongoDB.</p>
-			<p>My expertise encompasses the Spring Framework, including Spring MVC, Spring Boot, Spring Security, Spring Data JPA, and Spring JDBC. I am adept at developing RESTful APIs for seamless data exchange between client and server. My hands-on experience with Java 8 features such as Lambda Expressions, Streams API, Method References, Repeating Annotations, and Method Reflections enables me to write clean and efficient code.</p>
-			<p>I am experienced in deploying microservices on Kubernetes clusters using Docker containers. Additionally, I am skilled in integrating and securing APIs using OAuth 2.0 and JWT for authentication and authorization. My experience also includes integrating messaging queues like Kafka and RabbitMQ for reliable asynchronous communication between microservices.</p>
-			<p>With a strong foundation in Core Java concepts and experience with AWS services, I ensure efficient and maintainable code. I am committed to code quality through Test-Driven Development using JUnit and Mockrito and proficient in API development and testing with POSTMAN and SWAGGER. I also implement CI/CD pipelines using Jenkins and GitLab CLI</p>
+			<p>I am a <span style="font-weight: bold;">Full Stack Developer</span> with around 8 years of experience in building robust and scalable web applications. My journey in the tech world has been driven by a passion for crafting efficient and user-friendly solutions.</p>
+			<p>I specialize in front-end development using <span style="font-weight: bold;">React.js</span> and back-end services with <span style="font-weight: bold;">Java and Spring Boot.</span> My proficiency extends to creating responsive applications, managing state with Redux, and implementing <span style="font-weight: bold;">Microservices</span> Architecture. I have a strong foundation in various relational databases like <span style="font-weight: bold;">MySQL, SQL Server,</span> and NoSQL databases like <span style="font-weight: bold;">MongoDB.</span></p>
+			<p>My expertise encompasses the Spring Framework, including <span style="font-weight: bold;">Spring MVC, Spring Boot, Spring Security, Spring Data JPA, and Spring JDBC</span>. I am adept at developing <span style="font-weight: bold;">RESTful APIs</span> for seamless data exchange between client and server. My hands-on experience with <span style="font-weight: bold;">Java 8 features</span> such as Lambda Expressions, Streams API, Method References, Repeating Annotations, and Method Reflections enables me to write clean and efficient code.</p>
+			<p>I am experienced in deploying microservices on <span style="font-weight: bold;">Kubernetes clusters using Docker containers</span>. Additionally, I am skilled in integrating and securing APIs using <span style="font-weight: bold;">OAuth 2.0 and JWT</span> for authentication and authorization. My experience also includes integrating messaging queues like <span style="font-weight: bold;">Kafka and RabbitMQ</span> for reliable asynchronous communication between microservices.</p>
+			<p>With a strong foundation in <span style="font-weight: bold;">Core Java concepts</span> and experience with <span style="font-weight: bold;">AWS services</span>, I ensure efficient and maintainable code. I am committed to code quality through <span style="font-weight: bold;">Test-Driven Development</span> using <span style="font-weight: bold;">JUnit and Mockrito</span> and proficient in API development and testing with <span style="font-weight: bold;">POSTMAN and SWAGGER</span>. I also implement <span style="font-weight: bold;">CI/CD pipelines using Jenkins and GitLab CLI</span></p>
 			<p>I actively contribute to open-source projects and am always eager to learn and grow in the dynamic field of software development</p>
 			<p><a href="https://www.linkedin.com/in/k-kokila/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
 		</div>
@@ -434,12 +434,13 @@
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
     (function() {
-        emailjs.init('IUI7V6ZKIjk3Dx0Wj'); 
+        emailjs.init('IUI7V6ZKIjk3Dx0Wj'); // Replace with your EmailJS user ID
     })();
 
     document.getElementById('contactForm').addEventListener('submit', function(event) {
         event.preventDefault();
 	
+			// These IDs from the previous steps
 			const serviceID = 'service_awopb4k';
 			const templateID = 'template_qzeb58e';
 
@@ -458,6 +459,7 @@
             });
     });
 	function downloadResume() {
+	// Create an invisible link element
 	const link = document.createElement('a');
 	link.href = 'Kokila_Kotha.docx';  
 	link.download = 'KokilaKotha_Resume.docx';  
