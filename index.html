@@ -1,0 +1,458 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kokila Kotha Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background: url('dark.jpeg') no-repeat center center;
+  background-size: cover; background-attachment: fixed;">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Kokila Kotha</a>
+	       <div class="collapse navbar-collapse" id="ftco-nav">
+	            <ul class="navbar-nav nav ml-auto">
+	                <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	                <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+			  		<li class="nav-item"><a href="#experience-section" class="nav-link" id="experience-link"><span>Resume</span></a></li>
+	          		<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        	</ul>
+	      	</div>
+	    </div>
+	</nav>
+
+	<section id="home-section" class="hero" >
+	    <div class="container">
+	        <!-- <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true"> -->
+			<div class="row">
+		        <div style="margin-top: 10rem;align-items: center;">
+		          	<h3 class="subheading" style="color: rgb(130, 217, 223);font-family: 'Times New Roman', Times, serif;">Hello,</h3>
+			        <h1 class="mb-4 mt-3" style="font-family: 'Times New Roman', Times, serif;">I am <span style="color: rgb(130, 217, 223);font-family: 'Times New Roman', Times, serif;">Kokila Kotha</span></h1>
+			        <h2 style="font-family: 'Times New Roman', Times, serif;">Full stack Developer</h2>
+					<p style="width:450px; height:200px;font-family: 'Times New Roman', Times, serif; margin-top: 1rem; font-size: 20px;">With a strong academic background in computer science and extensive professional experience, I am a dedicated Full Stack Developer with a passion for software engineering. I am skilled in backend and frontend development</p>
+			        <p><a href="https://github.com/kothakokila" class="btn btn-primary py-3 px-3">My works</a></p>
+		        </div>
+				<div class="one-third js-fullheight order-md-last img" style="
+				  	background-image: url('images/bg_1.png');
+				 	max-width: 500px;
+				    max-height: 500px;
+					width: 50%;
+				    border-radius: 50%; 
+				    margin-top: 8rem;
+					margin-left: 5rem;
+				    margin-bottom: 150px;
+					">
+	          	</div>
+	        </div>
+	    </div>
+    </section>
+
+	
+	<section id="about-section">
+		<h2 class="mb-4" style="text-decoration: underline;text-decoration-color: #0ef;
+		font-family: 'Times New Roman', Times, serif;text-align: center;margin-top: 1rem;">About Me</h2>
+		<div style="text-align: center;margin-left: 4rem;margin-right: 4rem;
+		@media (max-width: 300px) {
+        div {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+    }">
+			<p>I am a <span style="font-weight: bold;">Full Stack Developer</span> with around 5 years of experience in building robust and scalable web applications. My journey in the tech world has been driven by a passion for crafting efficient and user-friendly solutions.</p>
+			<p>I specialize in front-end development using <span style="font-weight: bold;">React.js</span> and back-end services with <span style="font-weight: bold;">Java and Spring Boot.</span> My proficiency extends to creating responsive applications, managing state with Redux, and implementing <span style="font-weight: bold;">Microservices</span> Architecture. I have a strong foundation in various relational databases like <span style="font-weight: bold;">MySQL, SQL Server,</span> and NoSQL databases like <span style="font-weight: bold;">MongoDB.</span></p>
+			<p>My expertise encompasses the Spring Framework, including <span style="font-weight: bold;">Spring MVC, Spring Boot, Spring Security, Spring Data JPA, and Spring JDBC</span>. I am adept at developing <span style="font-weight: bold;">RESTful APIs</span> for seamless data exchange between client and server. My hands-on experience with <span style="font-weight: bold;">Java 8 features</span> such as Lambda Expressions, Streams API, Method References, Repeating Annotations, and Method Reflections enables me to write clean and efficient code.</p>
+			<p>I am experienced in deploying microservices on <span style="font-weight: bold;">Kubernetes clusters using Docker containers</span>. Additionally, I am skilled in integrating and securing APIs using <span style="font-weight: bold;">OAuth 2.0 and JWT</span> for authentication and authorization. My experience also includes integrating messaging queues like <span style="font-weight: bold;">Kafka and RabbitMQ</span> for reliable asynchronous communication between microservices.</p>
+			<p>With a strong foundation in <span style="font-weight: bold;">Core Java concepts</span> and experience with <span style="font-weight: bold;">AWS services</span>, I ensure efficient and maintainable code. I am committed to code quality through <span style="font-weight: bold;">Test-Driven Development</span> using <span style="font-weight: bold;">JUnit and Mockrito</span> and proficient in API development and testing with <span style="font-weight: bold;">POSTMAN</span>. I also implement <span style="font-weight: bold;">CI/CD pipelines using Jenkins and GitLab CLI</span></p>
+			<p>I actively contribute to open-source projects and am always eager to learn and grow in the dynamic field of software development</p>
+			<p><a href="https://www.linkedin.com/in/kokilakotha/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+		</div>
+		<div class="container" style="text-align: center;font-family: 'Times New Roman', Times, serif;">
+			<div class="row" style="margin-top: 4rem;">
+				<h1 class="big-4" style="text-decoration: underline;text-decoration-color: #0ef;">Education</h1>
+			</div>
+			<br>
+			<div class="row" style="text-align: center;font-family: 'Times New Roman', Times, serif;">
+				<div class="resume-wrap ftco-animate" >
+					<span class="date">Jan 2023 - May 2024</span>
+					<h2>Master's in Computer Science</h2>
+					<span class="position">University of Missouri Kansas City, Kansas City, MO</span>
+				</div>
+
+	            <div class="resume-wrap ftco-animate">
+					<span class="date">August 2016- September 2020</span>
+					<h2>Bachelor's in Electronics and Communication Engineering</h2>
+					<span class="position">Gokaraju Rangaraju Institute of Engineering and Technology, Hyderabad, India</span>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<h1 class="big-4" style="text-decoration: underline;text-decoration-color: #0ef;">Clients</h1>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<h2 class="date">American Airlines</h2>
+						<p style="color:white"><span style="font-weight: bold;">Project Description: </span>Developed a full stack web application with React.js frontend and Java Spring Boot backend. Features include Receipts management by generating receipts for different payments made through the website.</p>
+					</div>
+				</div>
+	
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<h2 class="date">Royal Bank of Canada</h2>
+						<p style="color:white"><span style="font-weight: bold;">Project Description: </span>Worked in credit cards team at the Royal Bank of Canada, developing a reward credit card application system using Java, Spring Boot, and Angular.</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<h2 class="date">Vanguard</h2>
+						<p style="color:white"><span style="font-weight: bold;">Project Description: </span>Developed backend solutions using JavaEE, Spring Framework, and Spring Boot along with dynamic web applications using JSP, Servlets, and JSTL by using HTTP sessions and cookies.</p>
+					</div>
+				</div>
+			</div>
+					<p><a href="#experience-section" class="btn btn-primary py-3 px-3" id="experience-link2">View Full Experience</a></p>
+		</div>
+	</section>
+	
+
+	<section id="experience-section" class="experiencehidden">
+		<div class="container" style="text-align: center;font-family: 'Times New Roman', Times, serif;">
+			<div class="row" style="margin-top: 4rem;">
+				<h1 class="big-4" style="text-decoration: underline;text-decoration-color: #0ef;">Experience</h1>
+			</div>
+			<br>
+			<div class="row">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Full Stack Developer</span>
+					<h4>American Airlines <span style="font-size: 20px; font-style: italic;">(JAN 2024- Present)</span></h4>
+					<p style="color:white"><span style="font-weight: bold;text-decoration: underline;">Project Description: </span>Developed a full stack web application with React.js frontend and Java Spring Boot backend. Features include Receipts management by generating receipts for different payments made through the website.</p>
+						<ul style="text-align: justify; color: #ccc;">
+							<li>Designed and developed dynamic front-end user interface using HTM, CSS, JavaScript, React JS</li>
+							<li>Created prototypes with component-based rendering in react using Webpack bundler to manage dependencies and Babel as transpiler from JSX to ES6</li>
+							<li>Developed dynamic routing for single page applications using React Router, and states by implementing Redux for application state management.</li>
+							<li>Migrated class components to functional components using React Hooks, props for better user experience.</li>
+							<li>Created dynamic forms for the application using React Hook Forms for efficient form handling and validation, incorporating conditional rendering and useRef() for enhanced functionality.</li>
+							<li>Utilized useState and useEffect hooks for managing state and side effects, and useMemo, useCallback for optimizing performance in functional components.</li>
+							<li>Worked extensively with React Virtual DOM and component lifecycle phases including Mounting, Updating and Unmounting for class components.</li>
+							<li>Integrated frontend code with backend using Axios for making authenticated API calls to fetch data from RESTful APIs.</li>
+							<li>Developed the backend server with SpringBoot by involving different layers of the application including Entity-Model, Repository, Controller, Service with a focus on business logic and data persistence.</li>
+							<li>Implemented Microservices architecture with Spring boot and used webClient for asynchronous communication between microservices.</li>
+							<li>Configured API Gateway to manage and secure API endpoints.</li>
+							<li>Employed DTO design pattern to perform data transfer between service and presentation layer.</li>
+							<li>Worked with Java8 features like Stream API, Lambda expressions, Functional interfaces, Date/Time changes and Method references.</li>
+							<li>Designed and implemented MySQL database, by utilizing Hibernate ORM and @Annotations for efficient object-relational mapping (ORM) to synchronize POJOs with the database schemas.</li>
+							<li>Utilized Spring Data Mongo for managing MongoDB logs</li>
+							<li>Developed a global exception handler to handle exceptions raised by the application and handled security using Spring Security with OAuth2 for secure authentication and authorization.</li>
+							<li>Developed unit tests for Spring Boot services and controllers using JUnit and Mockito.</li>
+							<li>Developed and maintained comprehensive unit tests for React components using Jest test suite.</li>
+							<li>Experience with containerization using Docker images and Kubernetes clusters for deployment in AWS</li>
+							<li>Utilized AWS cloud services including EC2, S3, RDS, ECR, ECS and IAM for infrastructure provisioning, database management, container registry, and access control</li>
+							<li>Deployed applications into Jenkins CI/CD pipelines for continuous integration and continuous deployment.</li>
+							<li>Used GitHub to maintain the version, code merges and created new branches for implementing new features.</li>
+							<li>Involved in software development life cycle and participated in agile software development Scrum meetings.</li>
+						</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Senior Software Engineer</span>
+					<h4>Royal Bank of Canada <span style="font-size: 20px; font-style: italic;">(OCTOBER 2020- DECEMBER 2022)</span></h4>
+					<p style="color:white"><span style="font-weight: bold;text-decoration: underline;">Project Description: </span>Worked in credit cards team at the Royal Bank of Canada, developing a reward credit card application system using Java, Spring Boot, and Angular.</p>
+						<ul style="text-align: justify; color: #ccc;">
+							<li>Developed a responsive frontend responsive design interface using HTML5, CSS, bootstrap, TypeScript, and Angular 9, employing a model-driven approach through component and module creation, with code reuse.</li>
+							<li>Implemented interpolation and routing to navigate between the components using Angular Router Module.</li>
+							<li>Used @Input and @Output to transfer the data between Parent and Child components along with the dependency injection.</li>
+							<li>Integrated ngModel to achieve two-way data binding, used structured directives, event binding, router outlet, and custom pipes for filtering and sorting</li>
+							<li>Implemented HttpClientModule to handle HTTP requests in AngularJS.</li>
+							<li>Developed backend on Spring framework utilizing Beans, Dependency injection, Spring MVC, Hibernate ORM, Data JPA and Spring Boot.</li>
+							<li>Utilized Hibernate ORM to map Java objects to database tables by creating POJOs and using Hibernate Annotations along with Lombok, ensuring seamless interaction between the application and the database.</li>
+							<li>Implemented repository interfaces by Spring JPA to perform CRUD operations and queries on MySQL databases.</li>
+							<li>Integrated RESTful Web Services using MVC and handled JSON payloads for data exchang. </li>
+							<li>Enhanced the user experience by dynamically updating the User Interface based on the JSON data received from the server.</li>
+							<li>Implemented session validation and logging using Spring AOP module.</li>
+							<li>Used Spring Security for Authentication and Authorization of the application and POSTMAN for API testing.</li>
+							<li>Implemented MySQL for efficient data storage.</li>
+							<li>Used Maven as build and configuration tool and performed code deployments to local Tomcat servers.</li>
+							<li>Utilized Apache kafka along with RabbitMQ to efficiently handle messaging and data streaming requirements, ensuring reliable communication between distributed systems.</li>
+							<LI>Implemented all the layers by following Test-Driven Development using Junit for unit testing along with Mockito for integration testing and Log4j for logging</LI>
+							<li>Hosted Docker images to containerize microservices for efficient deployment and scalability.</li>
+							<li>Deployed applications on AWS services, utilizing EC2 instances, S3 for object storage, and RDS for databases, Lambda serverless, while securing access with IAM for user controls and collaborative operations.</li>
+							<li>Involved in SDLC Requirements gathering, requirements analysis, Design, Development and Testing of application developed using Agile methodology and actively participated in sprint meetings.</li>
+							<li>Used JIRA tool for Issue tracking, bug monitoring and managing work assignments in the system</li>
+							<li>Used Git, GitLab for version control system for collaboration, feedback and code review.</li>
+						</ul>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Junior Java Developer</span>
+					<h4>Vanguard <span style="font-size: 20px; font-style: italic;">(January 2019- September 2020)</span></h4>
+					<p style="color:white"><span style="font-weight: bold;text-decoration: underline;">Project Description: </span>Developed backend solutions using JavaEE, Spring Framework, and Spring Boot along with dynamic web applications using JSP, Servlets, and JSTL by using HTTP sessions and cookies.</p>
+						<ul style="text-align: justify; color: #ccc;">
+							<li>Developed dynamic web applications using JSP, Servlets, and JSTL by using HTTP sessions, cookies and session management in segments.</li>
+							<li>Implemented the MVC design patterns with Annotations to integrate different layers within the application.</li>
+							<li>Implemented Spring Data JPA and Hibernate ORM to streamline database access, optimization in the development and deployment of CRUD operations for improved efficiency.</li>
+							<li>Developed Hibernate persistence layer modules using EJB Java Persistence API (JPA) annotations and Entity Managers.</li>
+							<li>Created RESTful endpoints and SOAP webservices to facilitate efficient communication between client applications and servers, ensuring efficient data exchange and interaction, along with API functionality in micro services.</li>
+							<li>Utilized Discovery Server and Netflix Eureka for service registration and discovery in the backend.</li>
+							<li>Tested rest API calls effectively using the POSTMAN REST client for Chrome.</li>
+							<li>Employed Spring Boot Starter for rapid application bootstrapping, DevTools for efficient development with automatic reloading, and Actuator for monitoring application health and metrics.</li>
+							<li>Executed SQL scripts and queries to retrieve and validate data by My SQL database, ensuring data integrity, which contributed to a reduction in data errors.</li>
+							<li>Applied Java 8 features such as functional interfaces, streams and lambda expressions.</li>
+							<li>Worked in the Eclipse IDE, performed automated tests with JUnit, selenium and handled debugging tasks.</li>
+							<li>Managed application builds with Maven and deployed applications on the Apache Tomcat Server.</li>
+							<li>Utilized Git for version control to track and manage code changes efficiently.</li>
+						</ul>
+				</div>
+			</div>
+
+			<p><button class="btn btn-primary py-3 px-3" onclick="downloadResume()">Download Resume</button></p>
+		</div>
+	</section>
+	
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section" style="font-family: 'Times New Roman', Times, serif;">
+        <div class="container">
+      	    <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+            		<h2 class="mb-4">Contact Information</h2>
+            		<p>You can reach out to me:</p>
+        		</div>
+            </div>
+
+            <div class="row d-flex contact-info mb-5">
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	        <div class="align-self-stretch box p-4 text-center">
+          		        <div class="icon d-flex align-items-center justify-content-center">
+          			        <span class="icon-map-signs"></span>
+          		        </div>
+          		        <h3 class="mb-4">Address</h3>
+	                    <p style="color: white;">Kansas City, Mo</p>
+	           		</div>
+          		</div>
+            	<div class="col-md-6 col-lg-3 d-flex ftco-animate"> 
+          			<div class="align-self-stretch box p-4 text-center">
+          				<div class="icon d-flex align-items-center justify-content-center">
+          					<span class="icon-phone2"></span>
+          				</div>
+          				<h3 class="mb-4">Contact Number</h3>
+	           			<p><a href="tel://0101010101">+ 1 913 548 2539</a></p>
+	         		</div>
+         		</div>
+         		<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          			<div class="align-self-stretch box p-4 text-center">
+          				<div class="icon d-flex align-items-center justify-content-center">
+          					<span class="icon-paper-plane"></span>
+          				</div>
+          				<h3 class="mb-4">Email Address</h3>
+	           			<p><a href="mailto:info@yoursite.com">kokilachoudhary.kotha@gmail.com</a></p>
+	          		</div>
+         		</div>
+         		<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          			<div class="align-self-stretch box p-4 text-center">
+          				<div class="icon d-flex align-items-center justify-content-center">
+          					<span class="icon-linkedin"></span>
+          				</div>
+						  <h3 class="mb-4">LinkedIn</h3>
+						  <p><a href="https://www.linkedin.com/in/kokilakotha/">linkedin.com/in/kokilakotha/</a></p>
+	        		</div>
+          		</div>
+			</div>
+		</div>
+		<br>
+		<div class="formcontainer">
+			<h2 style="text-align: center;">Any Questions?</h2>
+			<form id="contactForm">
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required>
+				</div>
+				<div class="form-group">
+					<label for="subject">Subject:</label>
+					<input type="text" id="subject" name="subject" required>
+				</div>
+				<div class="form-group">
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" required></textarea>
+				</div>
+				<div class="form-group">
+					<button type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+		<p style="text-align: center;">Thank you for visiting my portfolio!</p>
+	</section>
+
+
+
+  <footer style="background-color: #fff; color: #000; text-align: center;height: 100px;">
+	<div style="position: relative;
+    height: 100%;">
+	<div style="position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;">
+	<p>Copyright &copy;2024 Kokila Kotha All rights reserved</p>
+	</div>
+	</div>
+  </footer>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init('IUI7V6ZKIjk3Dx0Wj'); 
+    })();
+
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+	
+			const serviceID = 'service_awopb4k';
+			const templateID = 'template_qzeb58e';
+
+			const templateParams = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
+            subject: document.getElementById('subject').value,
+            message: document.getElementById('message').value
+        };
+
+        emailjs.send(serviceID, templateID, templateParams)
+            .then(function(response) {
+                alert('Email sent successfully!', response.status, response.text);
+            }, function(error) {
+                alert('Failed to send email. Please try again later.', error);
+            });
+    });
+	function downloadResume() {
+	const link = document.createElement('a');
+	link.href = 'Kokila_Kotha_Resume.docx';  
+	link.download = 'KokilaKotha_Resume.docx';  
+	document.body.appendChild(link); 
+	link.click();
+	document.body.removeChild(link); 
+}
+</script>
+
+    
+  </body>
+</html>
+
